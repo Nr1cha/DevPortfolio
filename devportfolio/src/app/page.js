@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import About from './components/about';
+import About from './components/aboutMe';
 export default function Home() {
   return (
     <>
@@ -14,13 +14,16 @@ export default function Home() {
         <meta name='keywords' content='HTML, CSS, JavaScript, NextJS, React, Vercel' />
         <meta name='author' content='Nick Richards' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
       </Head>
+      <div className="page-content">
       <header>
-        <About />
+        <About /> {/*this is the about me section within the header*/}
       </header>
       <main id='content'>
         <p>This is inside of the main section</p>
       </main>
+      </div>
     </>
   );
 }
