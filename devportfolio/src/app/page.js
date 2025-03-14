@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import About from './components/aboutMe';
+import Projects from './components/projects';
 export default function Home() {
   return (
     <>
@@ -22,6 +23,7 @@ export default function Home() {
       </header>
       <main id='content'>
         <p>This is inside of the main section</p>
+        <Projects />
       </main>
       </div>
     </>
