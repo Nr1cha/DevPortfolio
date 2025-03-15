@@ -20,6 +20,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.page-content {
+  display: flex;
+  /* gap: 1rem; */
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+header {
+  padding-right: 3rem;
+}
+
 
 .nameTitle, h2 {
   color: #96add4;
