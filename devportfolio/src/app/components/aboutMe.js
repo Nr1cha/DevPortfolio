@@ -13,8 +13,16 @@ export default function About() {
 
             {/* socials */}
             <ul className='socials'>
-                <li><GithubIcon url={'https://github.com/Nr1cha'}size={32} round/></li>
-                <li><LinkedinIcon url={'https://www.linkedin.com/in/nickr1cha/'} size={32} round /></li>
+                <li>
+                    <a href='https://github.com/Nr1cha' target='_blank' rel='noopener noreferrer'>
+                        <GithubIcon size={32} round />
+                    </a>
+                </li>
+                <li>
+                    <a href='https://www.linkedin.com/in/nickr1cha/' target='_blank' rel='noopener noreferrer'>
+                        <LinkedinIcon size={32} round />
+                    </a>
+                </li>
             </ul>
 
         </>
