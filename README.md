@@ -1,23 +1,36 @@
-# DevPortfolio
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Main portfolio containing all projects that have been done until present
+## Getting Started
 
-# Website resources index used during this development process
+First, run the development server:
 
-https://www.geeksforgeeks.org/next-js-next-head/
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-https://nextjs.org/docs/pages/api-reference/components/head
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-https://tailwindcss.com/docs/installation/using-vite
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-# basic page layout
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-layer 0
-|----------------|
-this layer contains layers 1-2
+## Learn More
 
-layer 1
-|--------|
+To learn more about Next.js, take a look at the following resources:
 
-layer 2
-|--------|
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
