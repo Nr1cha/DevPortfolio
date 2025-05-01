@@ -38,7 +38,7 @@ export default function Projects() {
 
   return (
     <div>
-      <p>This section showcases the projects I worked on as part of my coursework.</p> <br></br>
+      <p>This section highlights projects completed during my coursework at Brigham Young University Idaho.</p> <br></br>
       <ul>{elements}</ul>
     </div>
   );

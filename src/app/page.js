@@ -22,7 +22,7 @@ export default function Home() {
         <About /> {/*this is the about me section within the header*/}
       </header>
       <main id='content'>
-        <p>COLLEGE PROJECTS</p>
+        <p className="collegeProjects">COLLEGE PROJECTS</p>
         <Projects />
       </main>
       </div>
