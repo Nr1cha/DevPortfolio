@@ -30,11 +30,18 @@ body {
 
 header {
   margin-top: 5rem;
+  margin-right: 20rem;
   padding-right: 3rem;
 }
 
 #content {
   margin-top: 5rem;
+}
+
+.collegeProjects {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: x-large;
 }
 
 
