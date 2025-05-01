@@ -29,7 +29,12 @@ body {
 }
 
 header {
+  margin-top: 5rem;
   padding-right: 3rem;
+}
+
+#content {
+  margin-top: 5rem;
 }
 
 
