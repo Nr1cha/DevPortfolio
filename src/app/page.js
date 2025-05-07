@@ -1,9 +1,12 @@
 import Head from 'next/head';
 import About from './components/aboutMe';
 import Projects from './components/projects';
+import UnderConstruction from './components/banner';
 export default function Home() {
   return (
     <>
+      <UnderConstruction />
+
       <Head>
         {/* title name */}
         <title>
