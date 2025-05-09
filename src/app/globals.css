@@ -34,6 +34,13 @@ header {
   padding-right: 3rem;
 }
 
+.bannerContent {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #4d863b;
+}
+
 #content {
   margin-top: 5rem;
 }
@@ -42,7 +49,26 @@ header {
   font-weight: bold;
   text-decoration: underline;
   font-size: x-large;
+
 }
+
+
+.projectItem li {
+  padding: 7px;
+  background-color: transparent;
+  border-radius: 4px;
+  transform: scale(1);
+  /* opacity: 1; */
+  transition: all 0.3s ease;
+}
+.projectItem li:hover {
+  padding: 7px;
+  background-color: rgba(152, 192, 183, 0.048);
+  border-radius: 4px;
+  transform: scale(1.05); /*remove if growscale is not wanted*/
+  transition: all 0.3s ease;
+}
+
 
 
 .nameTitle, h2 {
