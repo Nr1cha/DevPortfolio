@@ -52,12 +52,23 @@ header {
 
 }
 
+
+.projectItem li {
+  padding: 7px;
+  background-color: transparent;
+  border-radius: 4px;
+  transform: scale(1);
+  /* opacity: 1; */
+  transition: all 0.3s ease;
+}
 .projectItem li:hover {
   padding: 7px;
   background-color: rgba(152, 192, 183, 0.048);
   border-radius: 4px;
-  transition: 0.3s;
+  transform: scale(1.05); /*remove if growscale is not wanted*/
+  transition: all 0.3s ease;
 }
+
 
 
 .nameTitle, h2 {
