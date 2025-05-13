@@ -8,8 +8,8 @@ export default function About() {
     return (
         <>
             <h1 className="text-4xl font-bold text-gray-800 nameTitle">Nick Richards</h1>
-            <h2>Junior Web Developer</h2>
-            <p className="subText">I build full stack accessable projects on the web</p>
+            <h2>Web Developer</h2>
+            <p className="subText">I build full stack accessible projects on the web</p>
 
             {/* socials */}
             <ul className='socials'>
