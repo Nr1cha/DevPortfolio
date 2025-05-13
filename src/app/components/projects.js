@@ -38,7 +38,9 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <p>This section highlights projects completed during my coursework at Brigham Young University Idaho.</p> <br></br>
+      <p>My foray into software engineering began at Brigham Young University-Idaho. From responsive web applications to database systems, my passion for full stack solutions continues to grow. I love transforming ideas into full fledged solutions, enhancing the consumer's experience.</p> <br></br>
+      <p>As a recent graduate from Brigham Young University-Idaho with a bachelor’s degree in Applied Technology, I specialize in web development and database programming. Through my studies, I gained a deep appreciation for teamwork in building websites and programming both relational and non-relational databases.</p> <br></br>
+      <p>Throughout my academic career, I developed websites using core technologies like HTML, CSS, and JavaScript. In my senior year, I expanded my skills by building applications with Express and React, testing  my ability to pivot when creating modern, interactive web experiences.</p> <br></br>
       <ul className="projectItem">{elements}</ul>
     </div>
   );
