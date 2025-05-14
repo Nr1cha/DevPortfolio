@@ -4,6 +4,9 @@ import {
     LinkedinIcon,
     GithubIcon
 } from 'next-share';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCodepen } from '@fortawesome/free-brands-svg-icons';
+
 export default function About() {
     return (
         <>
@@ -21,6 +24,11 @@ export default function About() {
                 <li>
                     <a href='https://www.linkedin.com/in/nickr1cha/' target='_blank' rel='noopener noreferrer'>
                         <LinkedinIcon size={32} round />
+                    </a>
+                </li>
+                <li>
+                    <a href='https://codepen.io/nr1cha' target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon icon={faCodepen} style={{fontSize: '32px'}}/>
                     </a>
                 </li>
             </ul>
