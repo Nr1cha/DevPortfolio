@@ -1,11 +1,13 @@
+'use client';
 import { React, useState } from 'react';
 
+function StatePractice() {
 
-const [number, setNumber] = useState(30);
-const handleClick = () => {
-    setNumber(40);
-}
-function statePractice() {
+    const [number, setNumber] = useState(30);
+    const handleClick = () => {
+        setNumber(40);
+    }
+
     return (
         <div className='practice'>
             <h1>Number generator</h1>
@@ -16,4 +18,4 @@ function statePractice() {
     );
 }
 
-export default statePractice;
+export default StatePractice;

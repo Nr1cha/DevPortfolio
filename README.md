@@ -13,4 +13,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 `npm run dev`
 
 ### codepen profile
+
 https://codepen.io/nr1cha
+
+### Things i'm learning
+
+state should be inside the componant, not just the file but inside the function

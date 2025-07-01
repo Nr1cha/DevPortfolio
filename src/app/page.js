@@ -2,6 +2,8 @@ import Head from 'next/head';
 import About from './components/aboutMe';
 import Projects from './components/projects';
 import UnderConstruction from './components/banner';
+import StatePractice from './components/StatePractice';
+
 export default function Home() {
   return (
     <>
@@ -21,13 +23,15 @@ export default function Home() {
 
       </Head>
       <div className="page-content">
-      <header>
-        <About /> {/*this is the about me section within the header*/}
-      </header>
-      <main id='content'>
-        <p className="collegeProjects">COLLEGE PROJECTS</p>
-        <Projects />
-      </main>
+        <header>
+          <About /> {/*this is the about me section within the header*/}
+        </header>
+        <main id='content'>
+          <p className="collegeProjects">COLLEGE PROJECTS</p>
+          <Projects />
+          <div>hello</div>
+          <StatePractice />
+        </main>
       </div>
     </>
   );
