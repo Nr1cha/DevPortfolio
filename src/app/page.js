@@ -29,7 +29,6 @@ export default function Home() {
         <main id='content'>
           <p className="collegeProjects">COLLEGE PROJECTS</p>
           <Projects />
-          <div>hello</div>
           <StatePractice />
         </main>
       </div>
