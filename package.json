@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "next": "^15.1.5",
+    "next": "^15.5.21",
     "next-share": "^0.27.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -20,8 +20,12 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.1.5",
-    "postcss": "^8",
+    "eslint-config-next": "15.5.21",
+    "postcss": "^8.5.10",
     "tailwindcss": "^3.4.17"
+  },
+  "overrides": {
+    "postcss": "^8.5.10",
+    "sharp": "^0.35.0"
   }
 }
