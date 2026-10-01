@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import About from './components/AboutMe';
-import Projects from './components/Projects';
-import UnderConstruction from './components/Banner';
+import About from './components/aboutMe';
+import Projects from './components/projects';
+import UnderConstruction from './components/banner';
 
 export default function Home() {
   return (
